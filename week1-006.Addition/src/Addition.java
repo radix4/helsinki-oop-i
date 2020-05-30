@@ -1,10 +1,14 @@
 public class Addition {
 
     public static void main(String[] args) {
-        int a = 2;
-        int b = 3;
-        int sum = a + b;
-        System.out.println( sum );
+
+        int a = 1337;
+        int b = 42;
+        int result = 0; // Fix this
+
+        String toPrint = a + " + " + b + " = " + result;
+        System.out.println(toPrint);
+
     }
 
 }

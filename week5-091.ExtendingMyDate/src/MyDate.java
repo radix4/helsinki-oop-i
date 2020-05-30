@@ -21,7 +21,7 @@ public class MyDate {
         }
 
         if (this.year == compared.year && this.month < compared.month) {
-                return true;
+            return true;
         }
 
         if (this.year == compared.year && this.month == compared.month
@@ -30,33 +30,6 @@ public class MyDate {
         }
 
         return false;
-    }
-
-    public void advance(){
-        this.day++;
-        if (this.day > 30){
-            this.day -= 30;
-            this.month++;
-        }
-
-        if(this.month > 12){
-            this.month -= 12;
-            this.year++;
-        }
-    }
-
-    public void advance(int numberOfDays){
-        int i = 0;
-        while (i<numberOfDays){
-            advance();
-            i++;
-        }
-    }
-
-    public MyDate afterNumberOfDays(int days){
-        MyDate newMyDate = new MyDate(this.day,this.month,this.year);
-        newMyDate.advance(days);
-        return newMyDate;
     }
 
 }

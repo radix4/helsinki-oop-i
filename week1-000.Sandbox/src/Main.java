@@ -3,12 +3,31 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> words = new ArrayList<String>();
+        drawTriangle(8);
+    }
 
-        words.add("One"); // this is [0]
-        words.add("Two"); // [1]
-        words.add("Three"); // [2]
+    public static void drawTriangle(int N){
+        for (int i = 0; i < N; i++){    // rows
+            System.out.print("|");
 
-        System.out.println(words.get(words.size() - 1));
+            if (i + 1 == N) {
+                for (int x = 1; x < N; x++) {
+                    System.out.print("_");
+                }
+            }
+
+            for (int j = 0; j <= i; j++){    //columns
+                if (j < i && i + 1 != N) {
+                    System.out.print(" ");
+                }
+
+                if (i == j) {
+                    System.out.print("\\");
+                }
+            }
+                System.out.println();
+        }
+
+
     }
 }

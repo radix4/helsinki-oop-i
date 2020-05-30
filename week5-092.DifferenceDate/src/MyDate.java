@@ -3,9 +3,9 @@ public class MyDate {
     private int month;
     private int year;
 
-    public MyDate(int day, int month, int year) {
+    public MyDate(int day, int montd, int year) {
         this.day = day;
-        this.month = month;
+        this.month = montd;
         this.year = year;
     }
 
@@ -28,23 +28,6 @@ public class MyDate {
         }
 
         return false;
-    }
-
-    public int differenceInYears(MyDate comparedDate){
-        int totalDays1 = 0;
-        int totalDays2 = 0;
-        int differenceInDays = 0;
-        int differenceInYears = 0;
-
-        totalDays1 = this.day + (this.month * 30) + (this.year * 365);
-        totalDays2 = comparedDate.day + (comparedDate.month*30) + (comparedDate.year * 365);
-        differenceInDays = Math.abs(totalDays1 - totalDays2);
-        differenceInYears = differenceInDays / 365;
-
-        System.out.println(totalDays1);
-        System.out.println(totalDays2);
-
-        return differenceInYears;
     }
 
 }

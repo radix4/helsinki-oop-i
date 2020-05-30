@@ -5,17 +5,7 @@ public class Least {
         // write program code here
         // do not print anything inside the method
         // method needs a return in the end
-            int least;
-        if (number1 < number2) {
-            least = number1;
-            return least;
-        } else if (number2 < number1){
-            least = number2;
-            return least;
-        } else {
-            least = number1;
-            return least;
-        }
+        return -1;
     }
 
     public static void main(String[] args) {

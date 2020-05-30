@@ -1,13 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8545b06b-38d0-4cb0-8268-980bb4c3e01e" name="Default Changelist" comment="" />
+    <list default="true" id="db6457d4-0794-475c-936d-25bca9680aa5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/runConfigurations/week1_001_Name.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-000.Sandbox/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/test/production/week1-000.Sandbox/META-INF/week1-000.Sandbox.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/test/production/week1-000.Sandbox/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-000.Sandbox/test/production/week1-000.Sandbox/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/.idea/week1-001.Name.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/week1-001.Name.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/classes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/classes/Name.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/test/classes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/test/classes/NameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build_errors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week1-001.Name/src/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/src/Name.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/Greeter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/classes/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test/classes/GreeterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_errors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build_log.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1VW0p4fg0ZYJrQXEdO96SNp7tci" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cdr3zvCk6UuCX4GxjQ8xwtX3ip" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,8 +50,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="ServiceViewManager">
@@ -37,42 +72,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8545b06b-38d0-4cb0-8268-980bb4c3e01e" name="Default Changelist" comment="" />
-      <created>1577353722130</created>
+      <changelist id="db6457d4-0794-475c-936d-25bca9680aa5" name="Default Changelist" comment="" />
+      <created>1590869115261</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577353722130</updated>
+      <updated>1590869115261</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="816" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1577473121058">
+    <state x="819" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590869197238">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="816" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1577473121058" />
-    <state width="681" height="230" key="GridCell.Tab.0.bottom" timestamp="1577473198160">
+    <state x="819" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1590869197238" />
+    <state width="674" height="230" key="GridCell.Tab.0.bottom" timestamp="1590869402367">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="681" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1577473198160" />
-    <state width="681" height="230" key="GridCell.Tab.0.center" timestamp="1577473198159">
+    <state width="674" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590869402367" />
+    <state width="674" height="230" key="GridCell.Tab.0.center" timestamp="1590869402366">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="681" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1577473198159" />
-    <state width="681" height="230" key="GridCell.Tab.0.left" timestamp="1577473198159">
+    <state width="674" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590869402366" />
+    <state width="674" height="230" key="GridCell.Tab.0.left" timestamp="1590869402366">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="681" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1577473198159" />
-    <state width="681" height="230" key="GridCell.Tab.0.right" timestamp="1577473198159">
+    <state width="674" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590869402366" />
+    <state width="674" height="230" key="GridCell.Tab.0.right" timestamp="1590869402367">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="681" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1577473198159" />
-    <state x="165" y="23" key="SettingsEditor" timestamp="1577473196365">
+    <state width="674" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590869402367" />
+    <state x="416" y="43" key="SettingsEditor" timestamp="1590869187980">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="165" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1577473196365" />
-    <state x="755" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1577778001204">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="755" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1577778001204" />
+    <state x="416" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590869187980" />
   </component>
 </project>

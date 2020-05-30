@@ -1,10 +1,11 @@
+/** This program prints your name to the screen
+ * @author Thang Cao
+ * @date 05/30/2020
+ * */
+
 public class Name {
-    
     public static void main(String[] args) {
-        // Write your program here
-        // Please answer to our survey http://oo-start.mooc.fi/english_mooc_participants/new
-        // It will take less than 5 minutes!
-        System.out.println("Hello Micko");
+        System.out.println("Thang Cao");
     }
 
 }

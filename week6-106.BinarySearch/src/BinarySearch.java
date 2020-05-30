@@ -3,25 +3,11 @@ public class BinarySearch {
         int beginning = 0;
         int end = array.length - 1;
 
-
-
-
-
-
         while (beginning <= end) {
             int middle = (beginning + end) / 2;
-
-            if (array[middle] < searchedValue) {
-                beginning = middle + 1;
-            } else if (array[middle] == searchedValue){
+            if (array[middle] == searchedValue) {
                 return true;
-            } else {
-                end = middle - 1;
             }
-            middle = (beginning+end) / 2;
-
-
-
 
             // restrict the search area 
         }

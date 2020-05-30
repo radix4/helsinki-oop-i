@@ -12,18 +12,6 @@ public class SumOfThreeNumbers {
         // Write your program here
         // Use only variables sum and read
 
-        System.out.print("Enter first number: ");
-        read = Integer.parseInt(reader.nextLine());
-        sum = read;
-
-        System.out.print("Enter second number: ");
-        read = Integer.parseInt(reader.nextLine());
-        sum = sum + read;
-
-        System.out.print("Enter third number: ");
-        read = Integer.parseInt(reader.nextLine());
-        sum = sum + read;
-
         System.out.println("Sum: " + sum);
     }
 }

@@ -5,34 +5,20 @@ import java.util.Scanner;
 public class HangmanUserInteface {
 
     public static void main(String[] args) {
-            Scanner reader = new Scanner(System.in);
-            Hangman hangman = new Hangman();
+        Scanner reader = new Scanner(System.in);
+        Hangman hangman = new Hangman();
 
-            System.out.println("***********");
-            System.out.println("* HANGMAN  *");
-            System.out.println("***********");
-            System.out.println("");
-            printMenu();
-            System.out.println("");
+        System.out.println("***********");
+        System.out.println("* HANGMAN  *");
+        System.out.println("***********");
+        System.out.println("");
+        printMenu();
+        System.out.println("");
 
-            // PROGRAM YOUR SOLUTION HERE
-            while (hangman.gameOn()) {
-                System.out.println("Type a command:");
-                String command = reader.nextLine();
-                if (command.equals("quit")){
-                    break;
-                } else if (command.equals("status")){
-                    hangman.printStatus();
-                } else if (command.length() == 1) {
-                    hangman.guess(command);
-                } else if (command.isEmpty()){
-                    printMenu();
-                }
-                hangman.printMan();
-                hangman.printWord();
-            }
+        // PROGRAM YOUR SOLUTION HERE
 
-            System.out.println("Thank you for playing!");
+
+        System.out.println("Thank you for playing!");
     }
 
     public static void printMenu() {

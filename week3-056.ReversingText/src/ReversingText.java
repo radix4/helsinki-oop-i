@@ -6,13 +6,7 @@ public class ReversingText {
     public static String reverse(String text) {
         // write your code here
         // note that method does now print anything, it RETURNS the reversed string
-        int lastChar = text.length()-1;
-        String help = "";
-        while (lastChar >= 0){
-            help = help + text.charAt(lastChar);
-            lastChar--;
-        }
-        return help;
+        return "";
     }
 
     public static void main(String[] args) {

@@ -6,19 +6,18 @@ public class Main {
 
     public static void main(String[] args) {
         // Test your program here
-        int[] values = {-3, 2, 3, 4, 7, 8, 12};
-        Scanner reader= new Scanner(System.in);
+        int[] taulukko = {-3, 2, 3, 4, 7, 8, 12};
+        Scanner lukija = new Scanner(System.in);
 
-        System.out.print("Numbers in the array " + Arrays.toString(values));
+        System.out.print("Numbers in the array " + Arrays.toString(taulukko));
         System.out.println();
 
         System.out.print("Enter searched number: ");
-        String input = reader.nextLine();
+        String etsittavaLuku = lukija.nextLine();
         System.out.println();
 
-        boolean result = BinarySearch.search(values, Integer.parseInt(input));
+        boolean tulos = BinarySearch.search(taulukko, Integer.parseInt(etsittavaLuku));
 
         // Print here the result
-        System.out.println(result);
     }
 }

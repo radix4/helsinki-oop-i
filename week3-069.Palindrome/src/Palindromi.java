@@ -1,22 +1,9 @@
 import java.util.Scanner;
-import java.util.*;
 
 public class Palindromi {
 
-    public static String reverseText(String text){
-        int i = text.length()-1;
-        String reversed = "";
-        while (i>=0){
-            reversed +=text.charAt(i);
-            i--;
-        }
-        return reversed;
-    }
-
     public static boolean palindrome(String text) {
-        if(text.equals(reverseText(text))){
-            return true;
-        }
+        // write code here
         return false;
     }
 
