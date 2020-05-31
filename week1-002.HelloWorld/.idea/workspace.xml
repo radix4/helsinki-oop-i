@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db6457d4-0794-475c-936d-25bca9680aa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/runConfigurations/week1_001_Name.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-000.Sandbox/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-000.Sandbox/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/test/production/week1-000.Sandbox/META-INF/week1-000.Sandbox.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-000.Sandbox/test/production/week1-000.Sandbox/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-000.Sandbox/test/production/week1-000.Sandbox/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/.idea/week1-001.Name.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/week1-001.Name.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/built-jar.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/classes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/classes/Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/test/classes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build/test/classes/NameTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/build_log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1-001.Name/src/Name.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week1-001.Name/src/Name.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/Greeter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/classes/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test/classes/GreeterTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_errors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build_log.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="db6457d4-0794-475c-936d-25bca9680aa5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,5 +75,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="416" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590869187980" />
+    <state x="759" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1590948243806">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="759" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1590948243806" />
   </component>
 </project>
