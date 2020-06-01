@@ -1,3 +1,8 @@
+/** This program demonstrates simple addition
+ * @author Thang Cao
+ * @date 06/01/2020
+ * */
+
 public class Addition {
 
     public static void main(String[] args) {

@@ -1,3 +1,8 @@
+/** This program calculates seconds in a year and prints it to the screen
+ * @author Thang Cao
+ * @date 06/30/2020
+ * */
+
 public class SecondsOfTheYear {
 
     public static void main(String[] args) {   
