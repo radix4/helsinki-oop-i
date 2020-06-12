@@ -1,4 +1,7 @@
-
+/** This program reads numbers from user and prints their sum
+ * @author  Thang Cao
+ * @since   06/10/2020
+ * */
 import java.util.Scanner;
 
 
@@ -14,7 +17,7 @@ public class SumOfManyNumbers {
                 break;
             }
 
-            // do something here
+            sum += read;
 
             System.out.println("Sum now: " + sum);
         }
