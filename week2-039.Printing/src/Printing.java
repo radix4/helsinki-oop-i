@@ -32,7 +32,12 @@ public class Printing {
     }
 
     public static void printTriangle(int size) {
-        // 39.4
+        for (int i = 0; i < size; i++) {    //row
+            for (int j = 0; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
     public static void main(String[] args) {
