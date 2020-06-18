@@ -14,7 +14,12 @@ public class Printing {
     }
 
     public static void printSquare(int sideSize) {
-        // 39.2
+        for (int i = 0; i < sideSize; i++) {
+            for (int j = 0; j < sideSize; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 
     public static void printRectangle(int width, int height) {
