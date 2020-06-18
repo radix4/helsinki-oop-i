@@ -1,10 +1,16 @@
+/**
+ * This program print many stars.
+ * @author  Thang Cao
+ * @since   06/18/2020
+ * */
+
 public class Printing {
 
     public static void printStars(int amount) {
-        // 39.1
-        // you can print one star with the command
-        // System.out.print("*");
-        // call this command amount times        
+        for (int i = 0; i < amount; i++) {
+            System.out.print("*");
+        }
+        System.out.println();
     }
 
     public static void printSquare(int sideSize) {
