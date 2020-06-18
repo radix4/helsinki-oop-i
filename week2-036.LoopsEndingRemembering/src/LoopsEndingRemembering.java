@@ -15,6 +15,7 @@ public class LoopsEndingRemembering {
         System.out.println("Type numbers:");
 
         int sum = 0;
+        int count = 0;
         while (true) {
             int n = Integer.parseInt(reader.nextLine());
 
@@ -23,9 +24,11 @@ public class LoopsEndingRemembering {
             }
 
             sum += n;
+            count++;
         }
 
         System.out.println("Thank you and see you later!");
         System.out.println("The sum is " + sum);
+        System.out.println("How many numbers: " + count);
     }
 }
