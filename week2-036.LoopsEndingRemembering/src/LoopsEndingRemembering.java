@@ -13,14 +13,19 @@ public class LoopsEndingRemembering {
         Scanner reader = new Scanner(System.in);
 
         System.out.println("Type numbers:");
+
+        int sum = 0;
         while (true) {
             int n = Integer.parseInt(reader.nextLine());
 
             if (n == -1) {
                 break;
             }
+
+            sum += n;
         }
 
         System.out.println("Thank you and see you later!");
+        System.out.println("The sum is " + sum);
     }
 }
