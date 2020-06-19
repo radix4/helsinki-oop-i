@@ -23,6 +23,11 @@ public class PrintingLikeBoss {
         }
     }
 
+    /** Print right aligned triangle.
+     *   *
+     *  **
+     * ***
+     * */
     public static void printTriangle(int size) {
         int i = 1;
         while (i <= size) {
@@ -40,6 +45,7 @@ public class PrintingLikeBoss {
             i++;
         }
 
+        /** Print tree base. */
         printWhitespaces(height - 2);
         printStars(3);
         printWhitespaces(height - 2);
@@ -47,8 +53,6 @@ public class PrintingLikeBoss {
     }
 
     public static void main(String[] args) {
-        // Tests do not use main, yo can write code here freely!
-
         printTriangle(5);
         System.out.println("---");
         xmasTree(4);
