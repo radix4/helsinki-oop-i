@@ -1,11 +1,26 @@
+/**
+ * This program prints different shapes using stars.
+ * @author  Thang Cao
+ * @since   06/19/2020
+ * */
+
 public class PrintingLikeBoss {
 
-    // copy or rewrite the method of Assignment 39.1 here
     public static void printStars(int amount) {
+        int printed = 0;
+        while (printed < amount) {
+            System.out.print("*");
+            printed = printed + 1;
+        }
+        System.out.println();
     }
 
     public static void printWhitespaces(int amount) {
-        // 40.1
+        int i = 0;
+        while (i < amount) {
+            System.out.print(" ");
+            i++;
+        }
     }
 
     public static void printTriangle(int size) {
