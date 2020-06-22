@@ -1,4 +1,8 @@
-
+/**
+ * This program returns the average number.
+ * @author  Thang Cao
+ * @since   06/22/2020
+ * */
 public class AverageOfGivenNumbers {
     
     // implement here again the method of exercise 43
