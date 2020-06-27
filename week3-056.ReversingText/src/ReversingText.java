@@ -1,12 +1,16 @@
-
+/**
+ * This program reverse the given String.
+ * @author  Thang Cao
+ * @since   06/27/2020
+ * */
 import java.util.Scanner;
 
 public class ReversingText {
 
     public static String reverse(String text) {
-        // write your code here
-        // note that method does now print anything, it RETURNS the reversed string
-        return "";
+        StringBuilder reverse = new StringBuilder(text).reverse();
+
+        return reverse.toString();
     }
 
     public static void main(String[] args) {
