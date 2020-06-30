@@ -1,8 +1,16 @@
+/**
+ * This program removes the last item in an ArrayList.
+ * @author  Thang Cao
+ * @since   06/30/2020
+ * */
+
+
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class RemoveLast {
     public static void removeLast(ArrayList<String> list) {
+        list.remove(list.size() - 1);
     }
 
     public static void main(String[] args) {
