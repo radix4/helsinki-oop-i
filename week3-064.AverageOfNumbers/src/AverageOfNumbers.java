@@ -1,17 +1,25 @@
+/**
+ * This program returns the average number of an ArrayList
+ * @author  Thang Cao
+ * @since   07/01/2020
+ * */
 
 import java.util.ArrayList;
 
 public class AverageOfNumbers {
 
-    // Copy here the method sum from previous assignment
     public static int sum(ArrayList<Integer> list) {
-        return 0;
+        int sum = 0;
+        for (int i : list) {
+            sum += i;
+        }
+
+        return sum;
     }
     
 
     public static double average(ArrayList<Integer> list) {
-        // write code here
-        return 0;
+        return sum(list)/(double)list.size();
     }
 
     public static void main(String[] args) {
