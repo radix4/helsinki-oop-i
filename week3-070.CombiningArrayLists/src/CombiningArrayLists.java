@@ -1,8 +1,18 @@
+/**
+ * This program combines two ArrayLists into one.
+ * @author  Thang Cao
+ * @since   07/04/2020
+ * */
+
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class CombiningArrayLists {
+
+    public static void combine(ArrayList<Integer> one, ArrayList<Integer> two){
+        one.addAll(two);
+    }
 
     public static void main(String[] args) {
 
@@ -23,7 +33,7 @@ public class CombiningArrayLists {
         // list2.add(7);
 
         // Implement the following method and then remove the comment
-        // combine(list1, list2);
+        combine(list1, list2);
         System.out.println(list1);
         System.out.println(list2);
 
