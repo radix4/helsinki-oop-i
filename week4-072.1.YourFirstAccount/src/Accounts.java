@@ -22,9 +22,10 @@ public class Accounts {
         System.out.println(secondAccount);
         System.out.println(myAcc);
 
-        Account A = new Account("tili A", 100.0);
-        Account B = new Account("tili B", 0.0);
-        Account C = new Account("tili C", 0.0);
+        /** Exercise 72.3 */
+        Account A = new Account("A", 100.0);
+        Account B = new Account("B", 0.0);
+        Account C = new Account("C", 0.0);
 
         transfer(A, B, 50);
         transfer(B, C, 25);
