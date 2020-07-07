@@ -17,5 +17,9 @@ public class DecreasingCounter {
         value--;
     }
 
+    public void reset(){
+        value = 0;
+    }
+
     // and here the rest of the methods
 }
