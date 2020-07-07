@@ -1,8 +1,10 @@
 public class DecreasingCounter {
     private int value;  // instance variable that remembers the value of the counter
+    private int initial;
 
     public DecreasingCounter(int valueAtStart) {
         this.value = valueAtStart;
+        initial = valueAtStart;
     }
 
     public void printValue() {
@@ -21,5 +23,8 @@ public class DecreasingCounter {
         value = 0;
     }
 
+    public void setInitial(){
+        value = initial;
+    }
     // and here the rest of the methods
 }
