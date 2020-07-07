@@ -11,6 +11,9 @@ public class DecreasingCounter {
     }
 
     public void decrease() {
+        if (value == 0) {
+            return;
+        }
         value--;
     }
 
