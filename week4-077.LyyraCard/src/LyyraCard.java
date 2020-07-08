@@ -19,6 +19,17 @@ public class LyyraCard {
         }
     }
 
+    public void loadMoney(double amount) {
+        if (amount < 0) {
+            return;
+        }
+
+        this.balance += amount;
+        if (this.balance > 150) {
+            this.balance = 150;
+        }
+    }
+
     public String toString() {
         return "The card has " + this.balance + " euros";
     }
