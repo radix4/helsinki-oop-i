@@ -1,3 +1,8 @@
+/**
+ * This program holds information about meals that are available in a cafeteria.
+ * @author  Thang Cao
+ * @since   07/07/2020
+ * */
 
 public class Main {
     public static void main(String[] args) {
