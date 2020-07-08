@@ -16,8 +16,12 @@ public class Menu {
     }
 
     public void printMeals() {
-        for (String meal: this.meals) {
+        for (String meal : meals) {
             System.out.println(meal);
         }
+    }
+
+    public void clearMenu() {
+        meals.clear();
     }
 }
