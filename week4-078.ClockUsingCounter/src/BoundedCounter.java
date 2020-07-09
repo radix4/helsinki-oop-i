@@ -16,11 +16,15 @@ public class BoundedCounter {
         value++;
     }
 
+    public int getValue() {
+        return value;
+    }
+
     public String toString() {
         if (value < 10){
-            return "Value: 0" + value;
+            return "0" + value;
         }
 
-        return "Value: " + value;
+        return "" + value;
     }
 }
