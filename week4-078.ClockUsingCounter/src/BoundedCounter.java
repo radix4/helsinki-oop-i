@@ -20,6 +20,15 @@ public class BoundedCounter {
         return value;
     }
 
+    public void setValue(int value) {
+        if (value < 0 || value > this.upperLimit) {
+            return;
+        }
+
+        this.value = value;
+    }
+
+
     public String toString() {
         if (value < 10){
             return "0" + value;
