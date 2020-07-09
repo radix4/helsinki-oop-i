@@ -17,6 +17,9 @@ public class BoundedCounter {
     }
 
     public String toString() {
+        if (value < 10){
+            return "Value: 0" + value;
+        }
 
         return "Value: " + value;
     }
