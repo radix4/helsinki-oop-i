@@ -1,3 +1,9 @@
+/**
+ * This program draws lottery numbers of the week.
+ * @author  Thang Cao
+ * @since   07/10/2020
+ * */
+
 import java.util.ArrayList;
 
 public class Main {
@@ -9,6 +15,6 @@ public class Main {
         for (int number : numbers) {
             System.out.print(number + " ");
         }
-        System.out.println("");
+        System.out.println();
     }
 }
