@@ -25,15 +25,29 @@ public class Counter {
     }
 
     public void increase() {
-        value++;
+        increase(1);
     }
 
     public void decrease() {
-        if (value == 0) {
+        decrease(1);
+    }
+
+    public void increase(int by) {
+        if (by >= 0) {
+            this.value += by;
+        }
+    }
+
+    public void decrease(int by) {
+        if (by < 0) {
             return;
         }
 
-        value--;
-    }
+        this.value -= by;
 
+        if (this.check && this.value <0) {
+            this.value = 0;
+        }
+
+    }
 }
