@@ -1,3 +1,8 @@
+/**
+ * This program compares apartments.
+ * @author  Thang Cao
+ * @since   07/12/2020
+ * */
 
 public class Main {
 
