@@ -1,4 +1,3 @@
-
 public class MyDate {
 
     private int day;
@@ -32,4 +31,37 @@ public class MyDate {
         return false;
     }
 
+    public void advance() {
+        this.day = this.day + 1;
+
+        if (this.day > 30) {
+            this.month = this.month + 1;
+            this.day = 1;
+
+            if (this.month > 12) {
+                this.year = this.year + 1;
+                this.month = 1;
+            }
+        }
+    }
+
+    public void advance(int numberOfDays) {
+        int count = 0;
+        while (count < numberOfDays) {
+            this.advance();
+            count = count + 1;
+        }
+    }
+
+    public MyDate afterNumberOfDays(int days) {
+        MyDate date = new MyDate(this.day, this.month, this.year);
+
+        int counter = 0;
+        while (counter < days) {
+            date.advance();
+            counter = counter + 1;
+        }
+
+        return date;
+    }
 }
