@@ -1,3 +1,9 @@
+/**
+ * This program implements a simple phone book.
+ * @author  Thang Cao
+ * @since   07/16/2020
+ * */
+
 
 public class Main {
 
