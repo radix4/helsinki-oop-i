@@ -1,3 +1,8 @@
+/**
+ * This program implements a method that returns the sum of an array.
+ * @author  Thang Cao
+ * @since   07/17/2020
+ * */
 
 public class Main {
 
@@ -9,6 +14,10 @@ public class Main {
 
     public static int sum(int[] array) {
         // Write code here
-        return 0;
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum = sum + array[i];
+        }
+        return sum;
     }
 }
