@@ -1,3 +1,8 @@
+/**
+ * This program implements a method that prints an array nicely.
+ * @author  Thang Cao
+ * @since   07/17/2020
+ * */
 
 public class Main {
 
@@ -9,5 +14,12 @@ public class Main {
 
     public static void printElegantly(int[] array) {
         // Write code here
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i < (array.length - 1)) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
     }
 }
