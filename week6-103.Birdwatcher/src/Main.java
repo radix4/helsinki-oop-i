@@ -1,3 +1,9 @@
+/**
+ * This program keeps track of birds.
+ * @author  Thang Cao
+ * @since   07/20/2020
+ * */
+
 import java.util.Scanner;
 
 public class Main {
