@@ -1,3 +1,9 @@
+/**
+ * This program shows a grade distribution.
+ * @author  Thang Cao
+ * @since   07/20/2020
+ * */
+
 import java.util.Scanner;
 
 public class Main {
