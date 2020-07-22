@@ -20,5 +20,16 @@ public class Main {
         return smallest;
     }
 
+    public static int indexOfTheSmallest(int[] table) {
+        int theIndexOfSmallest = 0;
+
+        for (int i = 0; i < table.length; i++) {
+            if ( table[i]<table[theIndexOfSmallest]) {
+                theIndexOfSmallest = i;
+            }
+        }
+
+        return theIndexOfSmallest;
+    }
 }
 
