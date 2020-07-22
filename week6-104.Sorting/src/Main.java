@@ -31,5 +31,19 @@ public class Main {
 
         return theIndexOfSmallest;
     }
+
+    public static int indexOfTheSmallestStartingFrom(int[] table, int startIndex) {
+        int theIndexOfSmallest = startIndex;
+
+        for (int i = startIndex; i < table.length; i++) {
+            if ( table[i]<table[theIndexOfSmallest]) {
+                theIndexOfSmallest = i;
+            }
+        }
+
+        return theIndexOfSmallest;
+    }
+
+
 }
 
