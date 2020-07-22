@@ -20,11 +20,11 @@ public class Main {
         return smallest;
     }
 
-    public static int indexOfTheSmallest(int[] table) {
+    public static int indexOfTheSmallest(int[] array) {
         int theIndexOfSmallest = 0;
 
-        for (int i = 0; i < table.length; i++) {
-            if ( table[i]<table[theIndexOfSmallest]) {
+        for (int i = 0; i < array.length; i++) {
+            if ( array[i]<array[theIndexOfSmallest]) {
                 theIndexOfSmallest = i;
             }
         }
@@ -32,11 +32,11 @@ public class Main {
         return theIndexOfSmallest;
     }
 
-    public static int indexOfTheSmallestStartingFrom(int[] table, int startIndex) {
+    public static int indexOfTheSmallestStartingFrom(int[] array, int startIndex) {
         int theIndexOfSmallest = startIndex;
 
-        for (int i = startIndex; i < table.length; i++) {
-            if ( table[i]<table[theIndexOfSmallest]) {
+        for (int i = startIndex; i < array.length; i++) {
+            if ( array[i]<array[theIndexOfSmallest]) {
                 theIndexOfSmallest = i;
             }
         }
@@ -44,6 +44,18 @@ public class Main {
         return theIndexOfSmallest;
     }
 
+    public static void swap(int[] array, int index1, int index2) {
+        int index1OldValue = array[index1];
+        array[index1] = array[index2];
+        array[index2] = index1OldValue;
+    }
+
+    public static void sort(int[] array){
+        for (int i = 0; i < array.length-1; i++) {
+            int theIndexOfTheSmallest = indexOfTheSmallestStartingFrom(array, i);
+            swap(array, i, theIndexOfTheSmallest);
+        }
+    }
 
 }
 
