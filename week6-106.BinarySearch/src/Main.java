@@ -1,3 +1,8 @@
+/**
+ * This program implements a binary search
+ * @author  Thang Cao
+ * @since   07/20/2020
+ * */
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -18,6 +23,10 @@ public class Main {
 
         boolean tulos = BinarySearch.search(taulukko, Integer.parseInt(etsittavaLuku));
 
-        // Print here the result
+        if (tulos) {
+            System.out.println("Number " + etsittavaLuku + " is in the array.");
+        } else {
+            System.out.println("Number " + etsittavaLuku + " is not in the array.");
+        }
     }
 }
