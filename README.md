@@ -4,6 +4,8 @@ Offered by: University of Helsinki's Department of Computer Science
 
 Start date: 05/28/2020 
 
+Finish date: 7/22/2020
+
 Reference: https://www.mooc.fi/en
 
 ---------------------------------------------------------------------
@@ -22,3 +24,12 @@ What I learned:
   - Truth values
   - Well indented and “breathing” code
   - Object-Oriented programming
+  - Classes
+  - toString() method
+  - Getters and setters methods
+  - Overloading methods
+  - Static methods
+  - Array
+  - Iteration
+  - Block and nested loops
+  - Binary Search
